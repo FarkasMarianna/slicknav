@@ -1,0 +1,43 @@
+
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+	
+	#menu {
+		display:none;
+	}
+	
+	.slicknav_menu {
+  display: inline-block;
+  position: fixed;
+  background: transparent;
+  z-index: 1000;
+  right: 40px;
+  margin-top: -30px;
+}
+
+.slicknav_btn {
+  margin: 35px 30px 30px 20px;
+  padding: 0 0.624em 0.624em 0.624em;
+  cursor: pointer; 
+  background: orangered;
+  }
+
+.slicknav_nav {
+    background-color: orangered;
+    border-radius: 5px;
+}
+.slicknav_icon-bar {
+    margin-top: 0.388em;
+    
+}
+
+.slicknav_nav li a {
+  color: rgb(78, 18, 151);
+  text-decoration: none;
+}
+
+
+}
